@@ -100,9 +100,7 @@ demo = gr.Interface(
     description="Find entities using the `dslim/bert-base-NER` model under the hood!",
     allow_flagging="never",
     examples=[
-            "Barack Obama was born in Hawaii and served as the President of the United States.",
-            "Elon Musk founded SpaceX and Tesla in California.",
-            "Amazon was established in 1994 by Jeff Bezos in Seattle."
+            My name is Abishai, I'm studying in Saveetha Engineering College and live in Chennai.
     ]
 )
 demo.launch(share=True, server_port=int(os.environ['PORT4']))
@@ -110,7 +108,8 @@ demo.launch(share=True, server_port=int(os.environ['PORT4']))
 
 ### OUTPUT:
 
-<img width="1175" height="626" alt="exp 5 gen" src="https://github.com/user-attachments/assets/31283283-c97a-4262-a0be-a6374b9b269b" />
+<img width="1157" height="607" alt="image" src="https://github.com/user-attachments/assets/cb610539-e7f8-4d6a-8c23-085af1da7f9d" />
+
 
 ### RESULT:
 
